@@ -27,7 +27,7 @@ SECRET_KEY = 'esg&6u%!d$cksj(fs)cjdd1c!#aex9)a(b#+)dd@610%-^%e@o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['15.206.80.174','localhost','0.0.0.0']
 
 
 # Application definition
