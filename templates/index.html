@@ -141,7 +141,7 @@ input {
 
 <ul id="myUL">
   {% for todo in name %}
-  <li>{{todo.title | title}} <span class="close"><a style="text-decoration: none; color: black;" href="delete/{{todo.id}}">Delete</a></span></li>
+  <li>{{todo.title | title}} <span class="close"><a style="text-decoration: none; color: black;" href="delete/{{todo.id}}">Complete</a></span></li>
   {% endfor %}
 </ul>
 
